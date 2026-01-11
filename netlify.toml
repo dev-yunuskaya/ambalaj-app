@@ -1,7 +1,7 @@
 [build]
   base = "ambalaj-web"
   command = "npm run build"
-  publish = "ambalaj-web/dist"
+  publish = "dist"
 
 [[redirects]]
   from = "/*"
