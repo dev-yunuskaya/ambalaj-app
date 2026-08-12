@@ -1,0 +1,12 @@
+{
+  "builds": [
+    {
+      "src": "ambalaj-web/package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "ambalaj-web/dist" }
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
