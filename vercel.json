@@ -1,4 +1,5 @@
 {
+  "version": 3,
   "builds": [
     {
       "src": "ambalaj-web/package.json",
@@ -6,6 +7,7 @@
       "config": { "distDir": "ambalaj-web/dist" }
     }
   ],
+  "outputDirectory": "ambalaj-web/dist",
   "routes": [
     { "src": "/(.*)", "dest": "/index.html" }
   ]
